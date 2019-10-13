@@ -141,11 +141,140 @@ section p {
   font-family: "Calibri";
   font-size: 16px;
   color: #000;
+  height: 100%;
 }
 
 .section_functionalities {
   background: #2048a3;
   height: 100%;
+}
+
+.section_functionalities .column {
+  padding: 10px;
+}
+
+.course {
+  width: 100%;
+  height: 100%;
+}
+
+.course_dir a {
+  color: #000;
+  text-decoration: none;
+}
+
+.course_dir a:hover {
+  color: #3498db;
+}
+
+.course_dir i {
+  color: #000;
+}
+
+.course_outline {
+  padding-top: 5%;
+  height: 100%;
+}
+
+.course_outline .column {
+  background: #fcfafa;
+  width: 33.33%;
+}
+
+.course_outline h4 {
+  font-size: 20px;
+  color: #000;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.course_outline p {
+  color: #666666;
+  font-family: "Segoe UI";
+  font-size: 15.5px;
+}
+
+.course_outline .btn {
+  text-align: left;
+}
+
+.course_outline li {
+  list-style-type: none;
+  padding-left: 5%;
+  color: #666666;
+  font-family: "Segoe UI";
+  font-size: 15.5px;
+  padding-top: 5%;
+}
+
+.course_outline a {
+  text-decoration: none;
+  color: #000;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.course_outline a:hover {
+  background: #f5f5f5;
+  padding: 3%;
+}
+
+.content h4 {
+  font-size: 30px;
+  color: #000;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.content p {
+  color: #666666;
+  font-family: "Segoe UI";
+  font-size: 15.5px;
+}
+
+.content .column {
+  width: 50%;
+}
+
+.content .column li {
+  color: #666666;
+  font-family: "Segoe UI";
+  font-size: 15.5px;
+}
+
+.content .column:nth-of-type(2) {
+  text-align: center;
+}
+
+.content .column textarea {
+  width: 60%;
+  height: 200px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+.content .column button {
+  background: #2048a3;
+  border: 0;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 10px;
+  width: 60%;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  text-transform: uppercase;
+  font-family: "Segoe UI Light";
+  font-weight: bolder;
+}
+
+.content .column button:hover {
+  background: #faaa36;
+  color: #2048a3;
 }
 
 .courses_intro {
@@ -169,14 +298,14 @@ section p {
 
 .courses_enrolled h3 {
   font-size: 38px;
-  font-family: 'Segoe UI Light';
+  font-family: "Segoe UI Light";
   letter-spacing: 1px;
   color: #4d4b4b;
 }
 
 .courses_enrolled p {
   font-size: 18px;
-  font-family: 'Segoe UI';
+  font-family: "Segoe UI";
   color: #000;
 }
 
@@ -402,7 +531,6 @@ footer ul li a:hover {
 .column {
   float: left;
   width: 30%;
-  padding: 10px;
 }
 
 .row:after {
